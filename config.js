@@ -1,14 +1,14 @@
 "use strict";
 
 module.exports = {
-  url: "https://lumen.netlify.com",
+  url: "https://soubai.me",
   pathPrefix: "/",
   title: "Blog by Soubai",
-  subtitle: "Fullstack web developer",
+  subtitle: "Full stack web developer",
   copyright: "© All rights reserved.",
-  disqusShortname: "",
+  disqusShortname: "myblog-cb5rk2ysjl",
   postsPerPage: 4,
-  googleAnalyticsId: "UA-73379983-2",
+  googleAnalyticsId: "UA-155019850-1",
   useKatex: false,
   menu: [
     {
