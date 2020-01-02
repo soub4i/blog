@@ -6,9 +6,9 @@ draft: false
 slug: "get-started-with-voice-driven-applications-using-node-js"
 category: "Node.js"
 tags:
-  - "Open source"
-  - "Gatsby"
-  - "Typography"
+  - "node.js"
+  - "google"
+  - "voice"
 description: "Getting started with Voice Driven Applications using Node.js
 "
 socialImage: "/media/1_HgYF11l9qlcHbcF4I8dt2w.jpeg"

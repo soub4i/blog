@@ -3,7 +3,7 @@
 module.exports = {
   url: "https://soubai.me",
   pathPrefix: "/",
-  title: "Blog by Soubai",
+  title: "Soubai's Stories",
   subtitle: "Full stack web developer",
   copyright: "© All rights reserved.",
   disqusShortname: "myblog-cb5rk2ysjl",
