@@ -8,13 +8,9 @@ category: "typescript"
 tags:
   - "typescript"
   - "design-patterns"
-description: "A pattern is a reusable solution that can be applied to commonly occurring problems in software design"
-socialImage: "/media/1_uRUhqr7qxE8kaNZ9TpHWbw.png"
+description: "Today we will talk about structural design patterns which are considered as design patterns that make easy/possible relations between…"
+socialImage: "/media/1_tAiVuMuN7qx5CSeRBTDiFg.jpeg"
 ---
-
-> Today we will talk about structural design patterns which are considered as design patterns that make easy/possible relations between…
-
-# Design patterns in Javascript made easy — part II
 
 Today we will talk about structural design patterns which are considered as design patterns that make easy/possible relations between different classes.
 

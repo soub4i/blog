@@ -9,12 +9,10 @@ tags:
   - "typescript"
   - "design-patterns"
 description: "A pattern is a reusable solution that can be applied to commonly occurring problems in software design"
-socialImage: "/media/1_uRUhqr7qxE8kaNZ9TpHWbw.png"
+socialImage: "/media/1_tAiVuMuN7qx5CSeRBTDiFg.jpeg"
 ---
 
 > If you’re a Here probably you heard about Design patterns Or You are Javascript enthusiast in both cases Welcome. Today I will write about…
-
-# Design patterns in Javascript made easy — part I
 
 A pattern is a reusable solution that can be applied to commonly occurring problems in software design — in our case — in writing Javascript web applications. Another way of looking at patterns are as templates for how we solve problems — ones which can be used in quite a few different situations. _(Book: Learning JavaScript Design Patterns by Adnan Osmani)_
 

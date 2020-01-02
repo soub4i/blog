@@ -8,8 +8,8 @@ category: "typescript"
 tags:
   - "typescript"
   - "design-patterns"
-description: "A pattern is a reusable solution that can be applied to commonly occurring problems in software design"
-socialImage: "/media/1_uRUhqr7qxE8kaNZ9TpHWbw.png"
+description: "in my last two articles, I talked about design patterns (Creational and Structural) in javascript using typescript..."
+socialImage: "/media/1_tAiVuMuN7qx5CSeRBTDiFg.jpeg"
 ---
 
 # Design patterns in Javascript made easy — part III

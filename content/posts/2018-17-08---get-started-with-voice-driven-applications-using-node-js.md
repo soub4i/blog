@@ -9,8 +9,7 @@ tags:
   - "node.js"
   - "google"
   - "voice"
-description: "Getting started with Voice Driven Applications using Node.js
-"
+description: "Voice-activated applications used to be the stuff that science fiction was made of, but not anymore. Today, these applications are readily used on a daily basis by adults and children alike for both business and personal uses..."
 socialImage: "/media/1_HgYF11l9qlcHbcF4I8dt2w.jpeg"
 ---
 

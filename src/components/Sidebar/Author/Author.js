@@ -16,7 +16,7 @@ const Author = ({ author, isIndex }: Props) => (
   <div className={styles["author"]}>
     <Link to="/">
       <img
-        src="https://avatars0.githubusercontent.com/u/11523791?s=460&v=4"
+        src={author.photo}
         className={styles["author__photo"]}
         width="75"
         height="75"

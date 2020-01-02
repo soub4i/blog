@@ -26,7 +26,7 @@ module.exports = {
   ],
   author: {
     name: "Abderrahim SOUBAI-ELIDRISI",
-    photo: "icon.png",
+    photo: "/media/avatar.jpg",
     bio: "Fullstack web developer",
     contacts: {
       email: "",

@@ -1,5 +1,5 @@
 ---
-title: Design patterns in Typescript made easy — part I
+title: Run your node.js app on the cluster mode
 date: "2018-12-13T22:40:32.169Z"
 template: "post"
 draft: false
@@ -8,13 +8,9 @@ category: "node.js"
 tags:
   - "node.js"
   - "cluster"
-description: "A pattern is a reusable solution that can be applied to commonly occurring problems in software design"
+description: "Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser..."
 socialImage: "/media/node-cluster.png"
 ---
-
-Javascript is the future for a lot of reasons:
-
-# Run your node.js app on the cluster mode
 
 Javascript is the future for a lot of reasons:
 

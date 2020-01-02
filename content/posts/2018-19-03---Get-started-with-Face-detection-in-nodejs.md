@@ -8,7 +8,7 @@ category: "node.js"
 tags:
   - "node.js"
   - "AI"
-description: "How you can get started with face detection on node.js"
+description: "NodeJS is a great technology for web/IoT projects it’s fast , resources friendly and beautiful. Also among its qualities there is code re-usability and we should says thank to NPM..."
 socialImage: "/media/1_uRUhqr7qxE8kaNZ9TpHWbw.png"
 ---
 
