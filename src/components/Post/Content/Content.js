@@ -4,11 +4,13 @@ import styles from './Content.module.scss';
 
 type Props = {
   body: string,
-  title: string
+  title: string,
+  socialImage: string,
 };
 
-const Content = ({ body, title }: Props) => (
+const Content = ({ body, title, socialImage }: Props) => (
   <div className={styles['content']}>
+    <img src={socialImage} />
     <h1 className={styles['content__title']}>{title}</h1>
     <div className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body }} />
   </div>
