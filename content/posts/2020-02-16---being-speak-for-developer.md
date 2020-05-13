@@ -1,5 +1,5 @@
 ---
-title: What I learned from Becoming a Conference Speaker
+title: What I learned by Becoming a Conference Speaker
 date: "2020-05-13T06:40:32.169Z"
 template: "post"
 draft: false
