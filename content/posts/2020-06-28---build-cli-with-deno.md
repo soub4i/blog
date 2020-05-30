@@ -1,6 +1,6 @@
 ---
 title: build CLI Tool with Deno
-date: "2020-06-28T06:40:32.169Z"
+date: "2020-05-28T06:40:32.169Z"
 template: "post"
 draft: false
 slug: "build-cli-tool-with-deno"
@@ -207,5 +207,11 @@ Now I can use my command like that :
 shortify https://www.soubai.me/posts/design-patterns-in-javascript-made-easy-part-iii
 
 ```
+
+## Output : 
+
+
+![](/media/Screenshot-20200531004639-880x145.png)
+
 
 Code available on [github](https://github.com/AbderrahimSoubaiElidrissi/deno-url-shorten-cli)
