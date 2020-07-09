@@ -27,9 +27,21 @@ body {
     color: var(--textNormal);
     a, a:hover , a:visited  {
       color: var(--textLink);
-        fill: var(--textTitle)
       
     };
+    [class^="Feed-module--feed__item-meta-category-link"] {
+      color: var(--tag)
+    }
+     [class^="Feed-module--feed__item-meta-category-link"]:hover {
+      text-decoration: none;
+      border-bottom: 1px solid var(--tag);
+      color: var(--tag)
+
+    }
+    a:hover {
+      border:0;
+      text-decoration: none;
+    }
     h1,h2,h3,h4,h5,h6 {
       color: var(--textTitle)
     }
@@ -38,7 +50,7 @@ body {
       fill: var(--textTitle)
     }
     time {
-      color: var(--tag)
+      color: var(--textLink);
 
     }
     background-color: var(--bg);
