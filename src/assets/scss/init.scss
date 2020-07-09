@@ -3,3 +3,58 @@
 @import "variables";
 @import "mixins";
 @import "base";
+
+body {
+    --bg: white;
+    --textNormal: #222;
+    --textTitle: #222;
+    --textLink: blue;
+    --hr: hsla(0, 0%, 0%, 0.2);
+  
+   
+  }
+  
+  body.dark {
+    -webkit-font-smoothing: antialiased;
+  
+    --bg: rgb(21, 32, 43);
+    --textNormal: rgba(255, 255, 255, 0.88);
+    --textTitle: white;
+    --textLink: #dfdfdf;
+    --hr: hsla(0, 0%, 100%, 0.2);
+    --tag: #F7A046;
+
+    color: var(--textNormal);
+    a, a:hover , a:visited  {
+      color: var(--textLink);
+        fill: var(--textTitle)
+      
+    };
+    h1,h2,h3,h4,h5,h6 {
+      color: var(--textTitle)
+    }
+    img#svg {
+      color: var(--textTitle);
+      fill: var(--textTitle)
+    }
+    time {
+      color: var(--tag)
+
+    }
+    background-color: var(--bg);
+  }
+
+  input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 750ms !important;
+  transition-delay: 0 !important;
+}

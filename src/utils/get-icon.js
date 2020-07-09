@@ -47,6 +47,12 @@ const getIcon = (name: string) => {
     case 'youtube':
       icon = ICONS.YOUTUBE;
       break;
+    case 'sun':
+      icon = ICONS.SUN;
+      break;
+    case 'moon':
+      icon = ICONS.MOON;
+      break;
     default:
       icon = {};
       break;

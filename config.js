@@ -7,7 +7,7 @@ module.exports = {
   subtitle: "Full stack web developer",
   copyright: "© All rights reserved.",
   disqusShortname: "myblog-cb5rk2ysjl",
-  postsPerPage: 4,
+  postsPerPage: 5,
   googleAnalyticsId: "UA-155019850-1",
   useKatex: false,
   menu: [
