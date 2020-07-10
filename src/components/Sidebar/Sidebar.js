@@ -34,7 +34,7 @@ const Sidebar = ({ isIndex }: Props) => {
                 id="toggle"
               />{' '}
               <span>
-                {theme === 'dark' ? <div><Icon name="sun" icon={getIcon('sun')} /> Light mode</div> : <div><Icon name="moon" icon={getIcon('moon')} />  Dark mode</div>}
+                {theme === 'dark' ? <div><Icon name="sun" icon={getIcon('sun')} /> Light mode.</div> : <div><Icon name="moon" icon={getIcon('moon')} />  Dark mode.</div>}
               </span>
             </label>
           )}

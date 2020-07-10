@@ -206,6 +206,7 @@ module.exports = {
     },
     "gatsby-plugin-flow",
     "gatsby-plugin-optimize-svgs",
-    'gatsby-plugin-dark-mode'
+    'gatsby-plugin-dark-mode',
+    'gatsby-plugin-remove-serviceworker'
   ]
 };
