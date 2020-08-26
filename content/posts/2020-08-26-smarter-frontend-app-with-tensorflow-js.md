@@ -8,7 +8,7 @@ socialImage: /media/108e4db84873.jpg
 description: >-
   Well in this blog post I will give you simple steps to put machine learning
   into as frontend developer that has nothing to do with AI or ML before.
-draft: true
+draft: false
 tags:
   - javascript
   - ml
