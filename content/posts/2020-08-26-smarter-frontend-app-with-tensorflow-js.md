@@ -36,7 +36,7 @@ ML (Machine learning) is the scientific study of algorithms and statistical mode
 
 ## 1.2 Types of ML
 
-![](/media/0_-068ud_-o3ajwq_z.jpg0_-068ud_-o3ajwq_z.jpg)
+![](/media/0_-068ud_-o3ajwq_z.jpg)
 
 1. Supervised learning: The machine learning algorithm is trained on labeled data. Even though the data needs to be labeled accurately for this method to work, supervised learning is extremely powerful when used in the right circumstances.
 2. Unsupervised machine learning holds the advantage of being able to work with unlabeled data. This means that human labor is not required to make the dataset machine-readable, allowing much larger datasets to be worked on by the program.
@@ -56,7 +56,7 @@ In the traditional app we feed algorithms to our business logic layer to get ans
 
 ## 2. Tensorflow & Tensorflow.js
 
-![](/media/ts.png)
+![](/media/tf.png)
 
 **TensorFlow** is an end-to-end open-source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researchers push the state-of-the-art in ML, and developers easily build and deploy ML-powered applications.
 
