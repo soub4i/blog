@@ -104,7 +104,7 @@ npm install @tensorflow/tfjs-node-gpu
 
 ![](/media/lr.gif)
 
-I will try with this explain to train my model on the browser using tf.js using a small dataset (just to demonstrate) the app will try to predict the price of a house in Barcelona based on number of rooms 
+I will try with in this use case to train my model on the browser using tensorflow.js using a small dataset (just to demonstrate) to generate that will try to predict the price of a houses in Barcelona based on number of rooms 
 
 ```html
 <html>
