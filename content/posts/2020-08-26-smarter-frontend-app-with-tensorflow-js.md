@@ -36,7 +36,7 @@ ML (Machine learning) is the scientific study of algorithms and statistical mode
 
 ## 1.2 Types of ML
 
-[](/media/0_-068ud_-o3ajwq_z.jpg0_-068ud_-o3ajwq_z.jpg)
+![](/media/0_-068ud_-o3ajwq_z.jpg0_-068ud_-o3ajwq_z.jpg)
 
 1. Supervised learning: The machine learning algorithm is trained on labeled data. Even though the data needs to be labeled accurately for this method to work, supervised learning is extremely powerful when used in the right circumstances.
 2. Unsupervised machine learning holds the advantage of being able to work with unlabeled data. This means that human labor is not required to make the dataset machine-readable, allowing much larger datasets to be worked on by the program.
@@ -44,19 +44,19 @@ ML (Machine learning) is the scientific study of algorithms and statistical mode
 
 ## 1.3 Model
 
-[](/media/images.jpeg)
+![](/media/images.jpeg)
 
  A machine learning model (basically a neural network) can be a mathematical representation of a real-world process. To generate a machine learning model you will need to provide training data (dataset) to a machine-learning algorithm to learn from.
 
 ## 1.4 Traditional app paradigm vs ML app
 
-[](/media/tvsml.png)
+![](/media/tvsml.png)
 
 In the traditional app we feed algorithms to our business logic layer to get answers (processed data) but in machine learning app we feed our model with data (answers) and we get a model (algorithms)
 
 ## 2. Tensorflow & Tensorflow.js
 
-[](/media/ts.png)
+![](/media/ts.png)
 
 **TensorFlow** is an end-to-end open-source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researchers push the state-of-the-art in ML, and developers easily build and deploy ML-powered applications.
 
@@ -64,7 +64,7 @@ In the traditional app we feed algorithms to our business logic layer to get ans
 
 ## 3. Case Study 1: Linear regression (Hello world)
 
-[!](/media/lr.gif)
+![](/media/lr.gif)
 
 I will try with this explain to train my model on the browser using tf.js using a small dataset (just to demonstrate) the app will try to predict the price of a house in Barcelona based on number of rooms 
 
