@@ -34,7 +34,7 @@ Well in this blog post I will give you simple steps to put machine learning into
 
 ML (Machine learning) is the scientific study of algorithms and statistical models that computer systems use to effectively perform a specific task.
 
-## 1.2 Types of ML
+### 1.2 Types of ML
 
 ![](/media/0_-068ud_-o3ajwq_z.jpg)
 
@@ -42,13 +42,13 @@ ML (Machine learning) is the scientific study of algorithms and statistical mode
 2. Unsupervised machine learning holds the advantage of being able to work with unlabeled data. This means that human labor is not required to make the dataset machine-readable, allowing much larger datasets to be worked on by the program.
 3. Reinforcement learning directly takes inspiration from how human beings learn from data in their lives. It features an algorithm that improves upon itself and learns from new situations using a trial-and-error method. Favorable outputs are encouraged or ‘reinforced’, and non-favorable outputs are discouraged or ‘punished’.
 
-## 1.3 Model
+### 1.3 Model
 
 ![](/media/images.jpeg)
 
  A machine learning model (basically a neural network) can be a mathematical representation of a real-world process. To generate a machine learning model you will need to provide training data (dataset) to a machine-learning algorithm to learn from.
 
-## 1.4 Traditional app paradigm vs ML app
+### 1.4 Traditional app paradigm vs ML app
 
 ![](/media/tvsml.png)
 
@@ -61,6 +61,44 @@ In the traditional app we feed algorithms to our business logic layer to get ans
 **TensorFlow** is an end-to-end open-source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researchers push the state-of-the-art in ML, and developers easily build and deploy ML-powered applications.
 
 **Tensorflow.js** (previously Deeplearn.js) the library by Google is GPU accelerated via WebGL API and used for predictions by using pre-trained models in inference mode in the browser but also for the training mode itself. It mirrors the API of the popular TensorFlow library.
+
+### 2.1 Where Tensorflow run
+
+Basiclly everywhere :
+
+1. Desktop running Windows, macOS or Linux (TensorFlow)
+1. Cloud as a web service (Google cloud)
+1. Mobile devices like iOS and Android (TensorFlow Lite)
+1. Browsers (Tensorflow.js)
+
+
+### 2.1 Installation of Tensorflow.js
+
+You can use it directly via CDN 
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+```
+
+OR using package manager : 
+
+`
+npm install @tensorflow/tfjs
+`
+
+for server side (node.js):
+
+Option 1: Install TensorFlow.js with native C++ bindings.
+
+`
+npm install @tensorflow/tfjs-node
+`
+
+Option 2: Linux Only) If your system has a NVIDIA® GPU with CUDA support, use the GPU package even for higher performance.
+
+`
+npm install @tensorflow/tfjs-node-gpu
+`
 
 ## 3. Case Study 1: Linear regression (Hello world)
 
@@ -130,12 +168,12 @@ Here I trained the model and add an event listener to predict function on submit
 
 [Code Source](https://codesandbox.io/s/determined-allen-2v1i7?file=/index.html)
 
-## 4. Case Study: Coriander and Parsley classifier
+## 4. Case Study 2: Coriander and Parsley classifier
 
-In this case, I will try to create a model and use it to make a prediction (identify coriander and parsley) I will not train the model in the browser like the first case for performance reasons (I used google collab [Here](https://colab.research.google.com/drive/135Oblj6v_Y2uAJOf3quw9y3F38idJLIZ) ) with this [dataset](https://github.com/alilakrakbi/Coriander-vs-Parsley)  Kudos to Ali Lkrakbi, The train model output is a Keras model (Model.p5) I used [tfjs-converter](https://github.com/tensorflow/tfjs/tree/master/tfjs-converter) to my model to Tensorflow.js compliant Model.
+In this case, I will try to create a model and use it to make predictions (identify coriander and parsley) I will not train the model in the browser like the first case for performance reasons (I used google collab [Here](https://colab.research.google.com/drive/135Oblj6v_Y2uAJOf3quw9y3F38idJLIZ) ) with this [dataset](https://github.com/alilakrakbi/Coriander-vs-Parsley)  Kudos to [Ali Lakrakbi](https://twitter.com/alilakrakbi), The output of trained model is a Keras model (Model.p5) I used [tfjs-converter](https://github.com/tensorflow/tfjs/tree/master/tfjs-converter) to my model to Tensorflow.js compliant Model.
 
 Finally, I just wrote an "Exploitation" code in javascript to use a pre-trained model to predict the picture if it's coriander or parsley
 
 You can found the example [here](https://codesandbox.io/s/proud-dawn-j14mh) and the code source and more examples in this [repo](https://github.com/AbderrahimSoubaiElidrissi/tfjs-examples)
 
-I hope this article gives you an getting started to ML and Tensorflow in web applications and will help you especially frontend developers to had an entry point to this field
+I hope this article gives you a getting started to ML and Tensorflow.js in web applications.
