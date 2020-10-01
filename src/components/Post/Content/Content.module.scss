@@ -58,6 +58,17 @@
 
 }
 
+.img-content {
+  max-width: $layout-post-single-width;
+  margin: 30px auto;
+
+    & img {
+      max-width: 100%;
+    }
+
+  }
+
+
 @include breakpoint-md {
   .content {
     padding: 0;

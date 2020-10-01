@@ -10,7 +10,7 @@ type Props = {
 
 const Content = ({ body, title, socialImage }: Props) => (
   <div className={styles['content']}>
-    <img src={socialImage} />
+    <img className={styles['img-content']} src={socialImage} />
     <h1 className={styles['content__title']}>{title}</h1>
     <div className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body }} />
   </div>
